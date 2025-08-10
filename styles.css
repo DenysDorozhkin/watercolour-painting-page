@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(192, 215, 235);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.painting-image {
+  width: 500px;
+}
+
+.header__title {
+  font-size: 28px;
+}
+
+.header__subtitle {
+  color: rgb(5, 130, 188);
+}
+
+.main {
+  border: 1px solid darkgrey;
+  text-align: center;
+}
+
+.figures ol {
+  list-style: none;
+}
+
+.gallery img {
+  width: 250px;
+  filter: hue-rotate(-10deg);
+}
+
+.separator {
+  width: 50%;
+  height: 3px;
+  background-color: rgb(5, 130, 188);
+}
+
+.video__player {
+  width: 70%;
+}
+
+.birds ol {
+  list-style: none;
+}
+
+.birds-sex__table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.birds-sex__table th,
+.birds-sex__table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.quote {
+  font-size: 32px;
+}
+
+.form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.form fieldset {
+  border: 1px solid black;
+}
+
+.form__control {
+  width: 100%;
+}
+
+.control--text {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.form__submit {
+  background-color: rgb(5, 130, 188);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+.form__submit:hover {
+  background-color: rgb(3, 100, 150);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgb(5, 130, 188);
+  padding: 20px 0;
+}
+
+.contacts__link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contacts__link:hover {
+  text-decoration: underline;
+  color: red;
+}

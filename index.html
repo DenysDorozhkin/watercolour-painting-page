@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Watercolour Painting Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="assets/watercolour-painting-in-frame.jpg"
+        alt="watercolour painting in frame"
+        class="painting-image"
+      />
+      <h1 class="header__title">Birds fly - they are free.</h1>
+      <h2 class="header__subtitle">
+        They move in beautiful quantum figures, and the scent of these figures
+        is highly aesthetic.
+      </h2>
+    </header>
+    <main class="main">
+      <section class="figures">
+        <h3>Figures</h3>
+        <details>
+          <summary>Figures list:</summary>
+          <ol>
+            <li>Square</li>
+            <li>Line</li>
+            <li>Triangle</li>
+            <li>Wave</li>
+            <li>Circle</li>
+          </ol>
+        </details>
+      </section>
+      <article class="article-about-birds">
+        <h4>About birds</h4>
+        <p>
+          There’s a quiet power in watching birds take to the sky. Their flight
+          feels effortless, unchained — a natural expression of freedom. They
+          don’t struggle or hesitate; they simply rise. In their graceful
+          motion, we’re reminded that true freedom is often quiet, instinctive,
+          and found in being exactly what we’re meant to be.
+        </p>
+      </article>
+      <section class="gallery">
+        <h3>Gallery</h3>
+        <img src="assets/gallery-drawing_1.jpg" alt="gallery drawing 1" />
+        <img src="assets/gallery-drawing_2.jpg" alt="gallery drawing 2" />
+        <img src="assets/gallery-drawing_3.jpg" alt="gallery drawing 3" />
+      </section>
+      <hr class="separator" />
+      <section class="video">
+        <video controls class="video__player" loop>
+          <source
+            src="assets/abstract-video/abstract-video(720)-compressed.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+      <section class="birds">
+        <h4>Birds</h4>
+        <details>
+          <summary>Birds list:</summary>
+          <ol>
+            <li>Swallow</li>
+            <li>Finch</li>
+            <li>Robin</li>
+            <li>Blue Jay</li>
+            <li>Cardinal</li>
+          </ol>
+        </details>
+      </section>
+      <hr class="separator" />
+      <section class="birds-sex">
+        <table class="birds-sex__table">
+          <thead>
+            <tr>
+              <th>Bird type</th>
+              <th>Breeding season</th>
+              <th>Incubation period (days)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Parus major</td>
+              <td>April–June</td>
+              <td>12–15</td>
+            </tr>
+            <tr>
+              <td>Passer domesticus</td>
+              <td>April–August</td>
+              <td>10–14</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="quote">
+        <blockquote class="quote__text">
+          Birds are the messengers of the sky, carrying whispers of freedom and
+          dreams on their wings.
+        </blockquote>
+      </section>
+      <section class="interaction">
+        <form
+          action="https://google.com"
+          method="get"
+          class="form"
+          target="_blank"
+        >
+          <fieldset>
+            <legend>Bird's information</legend>
+            <p class="form__description">
+              Please fill in the bird's information below:
+            </p>
+            <label for="birdFirstNameID">Bird's first name:</label>
+            <input
+              type="text"
+              name="birdFirstName"
+              id="birdFirstNameID"
+              placeholder="Bird's first name"
+              required
+              class="form__control"
+            />
+            <label for="birdLastNameID">Bird's last name:</label>
+            <input
+              type="text"
+              name="birdLastName"
+              id="birdLastNameID"
+              placeholder="Bird's last name"
+              required
+              class="form__control"
+            />
+            <label for="birdEmailID">Bird's email:</label>
+            <input
+              type="email"
+              name="birdEmail"
+              id="birdEmailID"
+              placeholder="Bird's email"
+              required
+              class="form__control"
+            />
+          </fieldset>
+          <br />
+          <textarea
+            name="birdMessage"
+            id="birdMessageID"
+            placeholder="Your bird message here..."
+            rows="7"
+            cols="30"
+            class="form__control control--text"
+          ></textarea>
+          <button type="submit" class="form__submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <address>
+        <a href="mailto:bird@birdsemail.com" class="contacts__link"
+          >bird@birdsemail.com</a
+        >
+        <br />
+        <a href="tel:+380666666666" class="contacts__link">+380666666666</a>
+      </address>
+    </footer>
+  </body>
+</html>
